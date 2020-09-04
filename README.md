@@ -23,11 +23,30 @@ Commit your code regularly and meaningfully. This practice helps both you (in ca
 Be prepared to demonstrate your understanding of this week's concepts by answering questions on the following topics. You might prepare by writing down your answers beforehand.
 
 1. Hashing functions
+
+**A hash function is a mathematical function that converts a numerical input value into another compressed numerical value. -- encoding
+
 2. Collision resolution
+
+**A way of handling collisions, that is, when two or more items should be kept in the same location, especially in a hash table.
+
 3. Performance of basic hash table operations
+
+**At worst case O(n)
+
 4. Load factor
+
+**number of nonEmpty slots(entries) / total number of slots(length of table)
+
 5. Automatic resizing
+
+**For our purposes, we'd automatically resize if the table would be at 70% capacity
+
 6. Various use cases for hash tables
+
+Memoization?
+Password or login verification?
+Data Structures
 
 We expect you to be able to answer questions in these areas. Your responses contribute to your Sprint Challenge grade.
 
